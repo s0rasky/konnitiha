@@ -7,19 +7,19 @@ def generate_workout(focus, distance):
     
     main_set = {
         "プル": [
-            "8 x 50m pull with paddles",
-            "4 x 100m pull with buoy",
-            "3 x 200m pull negative split"
+            "8 x 50m パドルプル",
+            "4 x 100m プル",
+            "3 x 200m プルネガティブ "
         ],
         "キック": [
-            "8 x 50m kick with board",
-            "4 x 100m kick without board",
-            "3 x 200m IM kick (50 each stroke)"
+            "8 x 50m ボードキック ",
+            "4 x 100m グライドキック",
+            "3 x 200m IMキック"
         ],
         "スイム": [
-            "8 x 50m drill/swim",
+            "8 x 50m ドリルスイム",
             "4 x 100m IM",
-            "3 x 200m freestyle with descending pace"
+            "3 x 200m ディセンディング"
         ]
     }
     
