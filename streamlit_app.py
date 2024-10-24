@@ -3,7 +3,7 @@ import streamlit as st
 import random
 
 def generate_workout(focus, distance):
-    warmup = ["400m easy swim", "200m kick", "200m pull"]
+    warmup = ["400m イージー", "200m キック", "200m プル"]
     
     main_set = {
         "プル": [
@@ -25,18 +25,18 @@ def generate_workout(focus, distance):
     
     distance_set = {
         "短距離": [
-            "10 x 25m sprints",
-            "5 x 50m at race pace",
-            "3 x 75m build"
+            "10 x 25m スプリント",
+            "5 x 50m ハード",
+            "3 x 75m ビルドアップ"
         ],
         "長距離": [
-            "1 x 400m steady pace",
-            "2 x 300m negative split",
-            "3 x 200m with 20 sec rest"
+            "1 x 400m ディスタンス",
+            "2 x 300m ネガティブ",
+            "3 x 200m IM"
         ]
     }
     
-    cooldown = ["200m easy swim", "100m choice stroke", "100m backstroke"]
+    cooldown = ["200m イージー", "100m S1"]
     
     workout = random.choice(warmup) + "\n\n"
     workout += "Main Set:\n"
